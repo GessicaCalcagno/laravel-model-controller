@@ -9,6 +9,10 @@ class MoviePageController extends Controller
 {
     public function index(){
         $movies = Movie::all();
+        //dd(compact('movies'));
         return view('movies', compact('movies'));
+
     }
+
+
 }
