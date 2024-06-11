@@ -1,4 +1,5 @@
 <?php
+//è il namespace + quello che inseriamo nella classe 
 use App\Http\Controllers\MoviePageController;
 use Illuminate\Support\Facades\Route;
 

@@ -8,6 +8,7 @@
     @foreach ($movies as $movie) 
     <div class="col">
       <div class="card me-2">
+        {{-- è un oggetto e non array associativo quindi si usa $movie->image -> --}}
         <img class="card-img-top" src={{$movie['image']}} alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">{{ $movie->title }}</h5>
